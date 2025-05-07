@@ -213,8 +213,7 @@ const DicePreview = ({ diceGrid, settings, blackDiceCount, whiteDiceCount, isVis
                 {Math.floor((blackDiceCount + whiteDiceCount) / 10 / 60)} hours, {Math.floor((blackDiceCount + whiteDiceCount) / 10 % 60)} minutes
               </div>
               
-              <div className="text-left">Monetary value</div>
-              <div className="text-right font-medium">****** <a href="/blog" className="text-blue-600 underline">See Blog</a></div>
+              
               
               <div className="text-left flex items-center">
                 <div className="w-3 h-3 bg-black rounded-sm mr-1"></div>
